@@ -97,6 +97,8 @@ contexts:
       scope: keyword.other.alias.sql
     - match: (?i)\b(DESC|ASC)\b
       scope: keyword.other.order.sql
+    - match: (?i)\b(GO)\b
+      scope: keyword.operator.tsqlgo.sql
     - match: \*
       scope: keyword.operator.star.sql
     - match: "<=>|[!<>]?=|<>|<|>"
